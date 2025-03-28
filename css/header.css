@@ -24,6 +24,9 @@
 
 .header__main > nav {
   padding: 0 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .header__main > nav > ul {
@@ -67,7 +70,8 @@
 
 .header__logo a {
   font-size: 3rem;
-  padding: 10px 30px;
+  margin: 5px 50px;
+  padding: 0 5px;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
