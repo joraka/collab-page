@@ -1,0 +1,1 @@
+design used: https://www.figma.com/design/9mV6rCFOEd1ptuZ4JBovVS/Collab-landing-page-design-(Community)

@@ -1,0 +1,15 @@
+{
+  "name": "collab-page",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server"
+  },
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
