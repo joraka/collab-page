@@ -1,0 +1,87 @@
+.description_section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px 0;
+  row-gap: 80px;
+  padding: 0 10px;
+}
+
+.description_section > h1:nth-last-of-type(1) {
+  color: var(--color3);
+  font-size: 2.3rem;
+}
+
+.description_section__phone_art {
+  position: relative;
+  height: 236px;
+  width: 236px;
+  margin: 0 auto;
+}
+
+.description_section__phone_art > div:nth-last-of-type(2) {
+  position: absolute;
+  background-color: #f5e1ff;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.description_section__phone_art > div:nth-last-of-type(1) {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  background-color: white;
+  border: 2px solid var(--color2);
+  transform: translateX(-50%);
+  border-radius: 5px;
+  content: "";
+  height: 236px;
+  width: 130px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--color2);
+}
+
+.description_section__phone_art > div:nth-last-of-type(3) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.description_section__button1 {
+  background-color: var(--color2);
+  display: inline-block;
+  margin: 0 auto;
+  padding: 18px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.description_section__button1:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+  color: rgb(255, 255, 255);
+}
+
+.description_section__button2 {
+  display: block;
+  margin-top: 100px;
+  color: var(--color2);
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid var(--color2);
+  margin: 0 auto;
+  padding: 11px 30px;
+}
+
+.description_section__button2:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+}
