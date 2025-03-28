@@ -16,12 +16,22 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  background: #1c0d22;
+  background: linear-gradient(90deg, #291d44, #1c0d22);
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
 }
 
 .container {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
+  background-color: white;
 }
 
 .nunito-sans {
@@ -42,4 +52,10 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    row-gap: 10px;
+  }
 }
